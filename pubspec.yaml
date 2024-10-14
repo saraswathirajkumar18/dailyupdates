@@ -92,6 +92,10 @@ flutter:
     - assets/images/homepageimg/radiobtnmenu2.png
     - assets/images/homepageimg/radiobtnmenu3.png
     - assets/images/homepageimg/radiobtnmenu4.png
+    - assets/images/homepageimg/radiomenu1.png
+    - assets/images/homepageimg/radiomenu2.png
+    - assets/images/homepageimg/radiomenu3.png
+    - assets/images/homepageimg/radiomenu4.png
     
     
   #   - images/a_dot_ham.jpeg
