@@ -68,7 +68,8 @@ class _OnboardScreenState extends State<OnboardScreen> {
 import 'dart:async';
 
 import 'package:flutter/material.dart';
-import 'package:food_app/homepage.dart';
+import 'package:food_app/HomeScreenInfo/homepage.dart';
+
 import 'package:food_app/loginpage.dart';
 import 'package:food_app/onboard_screen1.dart';
 
@@ -223,7 +224,9 @@ late PageController _controller;
                 _pageTimer?.cancel();
                 _progressTimer?.cancel();
                 Navigator.of(context).pushReplacement(
-                  MaterialPageRoute(builder: (context) =>LoginPage()),
+                  MaterialPageRoute(builder: (context) =>
+                  //LoginPage
+                  HomePage()),
                 );
               },
               child: Padding(

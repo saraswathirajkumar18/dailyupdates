@@ -23,6 +23,16 @@ class Category extends StatelessWidget {
       'text': 'Chinese',
       'page': FoodPage(),
     },
+    {
+      'icon': 'assets/images/homepageimg/categoryicon2.png', // Use your desired icon
+      'text': 'Sandwich',
+      'page': FoodPage(),
+    },
+    {
+      'icon': 'assets/images/homepageimg/categoryicon3.png', // Use your desired icon
+      'text': 'Rolls',
+      'page': FoodPage(),
+    },
     // Add more items as needed
   ];
 
@@ -31,12 +41,13 @@ class Category extends StatelessWidget {
     return Column(
       children: [
         Padding(
-          padding: const EdgeInsets.all(8.0),
+          padding: const EdgeInsets.all(14.0),
           child: Text(
-            'Categories',
+            'CATEGORY',
             style: TextStyle(
               fontSize: 12,
               fontWeight: FontWeight.w500,
+              color: Color(0xFF000000),
             ),
           ),
         ),
@@ -54,14 +65,14 @@ class Category extends StatelessWidget {
                   );
                 },
                 child: Container(
-                  width: 80, // Set the width for each icon
+                  width:95, // Set the width for each icon
                   child: Column(
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: [
                       Image.asset(
         items[index]['icon'], // Your custom icon
-        width: 40,
-        height: 40,
+        width: 96,
+        height:75,
       ),
       SizedBox(height: 4),
       Text(

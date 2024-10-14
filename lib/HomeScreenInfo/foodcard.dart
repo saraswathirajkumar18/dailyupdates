@@ -47,12 +47,13 @@ class FoodCard extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
        //this container and height must need otherwise foodcard content not display in page
-       height:300,
+       //height:400,
       child: Column(
           //height:160,
+           mainAxisSize: MainAxisSize.min,
           children: [
                Padding(
-            padding: const EdgeInsets.all(8.0),
+            padding: const EdgeInsets.all(25.0),
             child: Text(
                   'FESTIVE DEALS', // Add your desired heading text
                   textAlign: TextAlign.center, // Center the heading text
@@ -63,35 +64,35 @@ class FoodCard extends StatelessWidget {
                   ),
                 ),
           ),
-           Expanded(
-            child: GridView.builder(
-              padding: EdgeInsets.all(16.0),
-              gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
-                crossAxisCount: 2, // Number of cards in each row
-                crossAxisSpacing: 5.0, // Space between cards horizontally
-                mainAxisSpacing: 5.0, // Space between cards vertically
-              ),
-              itemCount: foodOffers.length, // Count of food offers
-              itemBuilder: (context, index) {
-                final offer = foodOffers[index]; // Get the current offer
-            
-                return FoodOfferCard(
-                  title: offer['title'],
-                  offerDetails: offer['offerDetails'],
-                  foodTypes: offer['foodTypes'],
-                   imageUrl: offer['imageUrl'],
-                   offerIconUrl:offer['offerIconUrl'],
-                  onTap: () {
-                    // Navigate to the respective page
-                    Navigator.push(
-                      context,
-                      MaterialPageRoute(builder: (context) => offer['page']),
-                    );
-                  },
-                );
-              },
-            ),
-          ),
+           GridView.builder(
+             padding: EdgeInsets.all(12.0),//initially 16
+             shrinkWrap: true,// Shrinks to fit content
+              physics: NeverScrollableScrollPhysics(), // Prevent GridView from scrolling
+             gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
+               crossAxisCount: 2, // Number of cards in each row
+               crossAxisSpacing: 5.0, // Space between cards horizontally
+               mainAxisSpacing: 5.0, // Space between cards vertically
+             ),
+             itemCount: foodOffers.length, // Count of food offers
+             itemBuilder: (context, index) {
+               final offer = foodOffers[index]; // Get the current offer
+           
+               return FoodOfferCard(
+                 title: offer['title'],
+                 offerDetails: offer['offerDetails'],
+                 foodTypes: offer['foodTypes'],
+                  imageUrl: offer['imageUrl'],
+                  offerIconUrl:offer['offerIconUrl'],
+                 onTap: () {
+                   // Navigate to the respective page
+                   Navigator.push(
+                     context,
+                     MaterialPageRoute(builder: (context) => offer['page']),
+                   );
+                 },
+               );
+             },
+           ),
           ],
         //),
       ),
@@ -145,7 +146,9 @@ class FoodOfferCard extends StatelessWidget {
                   children: [
                     Text(
                       title,
-                      style: TextStyle(fontSize: 13, fontWeight: FontWeight.w600,color:Color(0xFF1E1E1E),
+                      style: TextStyle(fontSize: 13, 
+                      fontWeight: FontWeight.w600,
+                      color:Color(0xFF1E1E1E),
         ),
                     ),
                     SizedBox(height: 8), // Space between title and offer details

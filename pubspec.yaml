@@ -88,6 +88,10 @@ flutter:
     - assets/images/homepageimg/categoryicon2.png
     - assets/images/homepageimg/categoryicon3.png
     - assets/images/homepageimg/categoryicon4.png
+    - assets/images/homepageimg/radiobtnmenu1.png
+    - assets/images/homepageimg/radiobtnmenu2.png
+    - assets/images/homepageimg/radiobtnmenu3.png
+    - assets/images/homepageimg/radiobtnmenu4.png
     
     
   #   - images/a_dot_ham.jpeg

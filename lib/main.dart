@@ -23,6 +23,7 @@ class MyApp extends StatelessWidget {
       title: 'Your Flutter App',
       theme: ThemeData(
         //primarySwatch: Colors.blue,
+        scaffoldBackgroundColor: Color(0xFFFAFAFA),
         fontFamily: 'Poppins', // Set the default font family here
          ),
       home: //HomePage(),
