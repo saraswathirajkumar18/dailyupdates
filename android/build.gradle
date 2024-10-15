@@ -1,4 +1,4 @@
-buildscript {
+/*buildscript {
     ext.kotlin_version = '1.8.0' // Update to your required version
     repositories {
         google()
@@ -8,7 +8,7 @@ buildscript {
         classpath "com.android.tools.build:gradle:7.3.0" // Update as necessary
         classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
     }
-}
+}*/
 allprojects {
     repositories {
         google()

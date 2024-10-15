@@ -2,6 +2,7 @@ import 'dart:async';
 
 import 'package:flutter/material.dart';
 import 'package:food_app/HomeScreenInfo/category.dart';
+import 'package:food_app/HomeScreenInfo/cityspotlightpage.dart';
 import 'package:food_app/HomeScreenInfo/foodcard.dart';
 import 'package:food_app/HomeScreenInfo/radionbuttonmenu.dart';
 import 'package:food_app/addresspage.dart';
@@ -22,7 +23,7 @@ class _HomePageState extends State<HomePage> {
   final List<IconData> icons = [
     Icons.home_outlined,
     Icons.explore_outlined,
-    Icons.favorite_outline,
+    Icons.favorite_border,
     Icons.person_outline,
   ];
   final List<IconData> iconsFilled = [
@@ -74,6 +75,7 @@ class _HomePageState extends State<HomePage> {
         FoodCard(), 
          Category(), 
          RadioButtonMenu() ,  
+         CitySpotLightPage(),
        // SizedBox(height:10),
              ],
           ), 
@@ -96,7 +98,7 @@ class _HomePageState extends State<HomePage> {
         mainAxisSize: MainAxisSize.min,
         children: [
           Row(
-            mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+            mainAxisAlignment: MainAxisAlignment.spaceAround,
             children: List.generate(icons.length, (index) {
               return GestureDetector(
                 onTap: () => onTabTapped(index),
@@ -117,11 +119,11 @@ class _HomePageState extends State<HomePage> {
                       ),
                     ),
                     Icon(
-                      size:35,
+                      size:25,
                       isFilledList[index] ?iconsFilled[index]:icons[index],
                       //color:isFilled? Color(0xFF14278D): Color(0xFF3F3F3F),
                        //isFilled ? Icons.favorite : Icons.favorite_border, 
-                      color: isFilledList[index] ? Color(0xFF14278D) : Color(0xFF3F3F3F),
+                      color: isFilledList[index] ? Color(0xFF14278D) : Color(0xFF635E5E),
                       //currentIndex == index ? Color(0xFF14278D): Color(0xFF3F3F3F),
                     ),
                     Text(

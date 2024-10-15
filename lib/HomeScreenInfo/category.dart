@@ -5,33 +5,33 @@ class Category extends StatelessWidget {
     {
       'icon':'assets/images/homepageimg/categoryicon1.png', // Use your desired icon
       'text': 'Chicken',
-      'page': FoodPage(),
+      'page': FoodPage1(),
     },
     {
       'icon':'assets/images/homepageimg/categoryicon2.png', // Use your desired icon
       'text': 'Burger',
-      'page': FoodPage(),
+      'page': FoodPage1(),
 
     },
     {
       'icon':'assets/images/homepageimg/categoryicon3.png', // Use your desired icon
       'text': 'Pizza',
-      'page': FoodPage(),
+      'page': FoodPage1(),
     },
     {
       'icon': 'assets/images/homepageimg/categoryicon4.png', // Use your desired icon
       'text': 'Chinese',
-      'page': FoodPage(),
+      'page': FoodPage1(),
     },
     {
       'icon': 'assets/images/homepageimg/categoryicon2.png', // Use your desired icon
       'text': 'Sandwich',
-      'page': FoodPage(),
+      'page': FoodPage1(),
     },
     {
       'icon': 'assets/images/homepageimg/categoryicon3.png', // Use your desired icon
       'text': 'Rolls',
-      'page': FoodPage(),
+      'page': FoodPage1(),
     },
     // Add more items as needed
   ];
@@ -96,7 +96,7 @@ class Category extends StatelessWidget {
 }
 
 // Dummy pages for navigation
-class FoodPage extends StatelessWidget {
+class FoodPage1 extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(

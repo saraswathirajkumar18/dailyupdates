@@ -9,9 +9,9 @@
       resolved="io.flutter:flutter_embedding_release:1.0.0-36335019a8eab588c3c2ea783c618d90505be233"/>
   <library
       name="androidx.fragment:fragment:1.7.1@aar"
-      jars="C:\Users\LENOVO\.gradle\caches\transforms-3\902e93687bfec424d7d681c16d78dd10\transformed\fragment-1.7.1\jars\classes.jar"
+      jars="C:\Users\LENOVO\.gradle\caches\transforms-3\644a240463ed6b131b6d5a3d91b5e839\transformed\fragment-1.7.1\jars\classes.jar"
       resolved="androidx.fragment:fragment:1.7.1"
-      folder="C:\Users\LENOVO\.gradle\caches\transforms-3\902e93687bfec424d7d681c16d78dd10\transformed\fragment-1.7.1"
+      folder="C:\Users\LENOVO\.gradle\caches\transforms-3\644a240463ed6b131b6d5a3d91b5e839\transformed\fragment-1.7.1"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -22,9 +22,9 @@
       proguardRules="proguard.txt"/>
   <library
       name="androidx.activity:activity:1.8.1@aar"
-      jars="C:\Users\LENOVO\.gradle\caches\transforms-3\a1a7f2ab517b2b49983b681fd36819b8\transformed\jetified-activity-1.8.1\jars\classes.jar"
+      jars="C:\Users\LENOVO\.gradle\caches\transforms-3\2cfa8f84632085e8781ce40dbcfc5748\transformed\jetified-activity-1.8.1\jars\classes.jar"
       resolved="androidx.activity:activity:1.8.1"
-      folder="C:\Users\LENOVO\.gradle\caches\transforms-3\a1a7f2ab517b2b49983b681fd36819b8\transformed\jetified-activity-1.8.1"
+      folder="C:\Users\LENOVO\.gradle\caches\transforms-3\2cfa8f84632085e8781ce40dbcfc5748\transformed\jetified-activity-1.8.1"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -35,9 +35,9 @@
       proguardRules="proguard.txt"/>
   <library
       name="androidx.loader:loader:1.0.0@aar"
-      jars="C:\Users\LENOVO\.gradle\caches\transforms-3\3ee281dfe280d95090f8ba19c801145a\transformed\loader-1.0.0\jars\classes.jar"
+      jars="C:\Users\LENOVO\.gradle\caches\transforms-3\abb553995cb73ce745308d283181ae20\transformed\loader-1.0.0\jars\classes.jar"
       resolved="androidx.loader:loader:1.0.0"
-      folder="C:\Users\LENOVO\.gradle\caches\transforms-3\3ee281dfe280d95090f8ba19c801145a\transformed\loader-1.0.0"
+      folder="C:\Users\LENOVO\.gradle\caches\transforms-3\abb553995cb73ce745308d283181ae20\transformed\loader-1.0.0"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -48,9 +48,9 @@
       proguardRules="proguard.txt"/>
   <library
       name="androidx.lifecycle:lifecycle-livedata-core-ktx:2.7.0@aar"
-      jars="C:\Users\LENOVO\.gradle\caches\transforms-3\6da0e15fe277d03192fadf049fb88f55\transformed\jetified-lifecycle-livedata-core-ktx-2.7.0\jars\classes.jar"
+      jars="C:\Users\LENOVO\.gradle\caches\transforms-3\18e7de9a5a52926c77884d9f43d2a136\transformed\jetified-lifecycle-livedata-core-ktx-2.7.0\jars\classes.jar"
       resolved="androidx.lifecycle:lifecycle-livedata-core-ktx:2.7.0"
-      folder="C:\Users\LENOVO\.gradle\caches\transforms-3\6da0e15fe277d03192fadf049fb88f55\transformed\jetified-lifecycle-livedata-core-ktx-2.7.0"
+      folder="C:\Users\LENOVO\.gradle\caches\transforms-3\18e7de9a5a52926c77884d9f43d2a136\transformed\jetified-lifecycle-livedata-core-ktx-2.7.0"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -61,9 +61,9 @@
       proguardRules="proguard.txt"/>
   <library
       name="androidx.lifecycle:lifecycle-livedata:2.7.0@aar"
-      jars="C:\Users\LENOVO\.gradle\caches\transforms-3\c8104be4ee8049739ee8a5cef3e0da67\transformed\lifecycle-livedata-2.7.0\jars\classes.jar"
+      jars="C:\Users\LENOVO\.gradle\caches\transforms-3\25580196c3a6ed9d361b42b2801b8660\transformed\lifecycle-livedata-2.7.0\jars\classes.jar"
       resolved="androidx.lifecycle:lifecycle-livedata:2.7.0"
-      folder="C:\Users\LENOVO\.gradle\caches\transforms-3\c8104be4ee8049739ee8a5cef3e0da67\transformed\lifecycle-livedata-2.7.0"
+      folder="C:\Users\LENOVO\.gradle\caches\transforms-3\25580196c3a6ed9d361b42b2801b8660\transformed\lifecycle-livedata-2.7.0"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -74,9 +74,9 @@
       proguardRules="proguard.txt"/>
   <library
       name="androidx.lifecycle:lifecycle-viewmodel:2.7.0@aar"
-      jars="C:\Users\LENOVO\.gradle\caches\transforms-3\7b93728c23c58fb4966a93fd781d42c6\transformed\lifecycle-viewmodel-2.7.0\jars\classes.jar"
+      jars="C:\Users\LENOVO\.gradle\caches\transforms-3\df0ebc434cde9f51ca280751722c37a8\transformed\lifecycle-viewmodel-2.7.0\jars\classes.jar"
       resolved="androidx.lifecycle:lifecycle-viewmodel:2.7.0"
-      folder="C:\Users\LENOVO\.gradle\caches\transforms-3\7b93728c23c58fb4966a93fd781d42c6\transformed\lifecycle-viewmodel-2.7.0"
+      folder="C:\Users\LENOVO\.gradle\caches\transforms-3\df0ebc434cde9f51ca280751722c37a8\transformed\lifecycle-viewmodel-2.7.0"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -87,9 +87,9 @@
       proguardRules="proguard.txt"/>
   <library
       name="androidx.lifecycle:lifecycle-livedata-core:2.7.0@aar"
-      jars="C:\Users\LENOVO\.gradle\caches\transforms-3\1561fead4024f9b9cdee719f01bdb430\transformed\lifecycle-livedata-core-2.7.0\jars\classes.jar"
+      jars="C:\Users\LENOVO\.gradle\caches\transforms-3\775732185605e36c52e04991b956e771\transformed\lifecycle-livedata-core-2.7.0\jars\classes.jar"
       resolved="androidx.lifecycle:lifecycle-livedata-core:2.7.0"
-      folder="C:\Users\LENOVO\.gradle\caches\transforms-3\1561fead4024f9b9cdee719f01bdb430\transformed\lifecycle-livedata-core-2.7.0"
+      folder="C:\Users\LENOVO\.gradle\caches\transforms-3\775732185605e36c52e04991b956e771\transformed\lifecycle-livedata-core-2.7.0"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -100,9 +100,9 @@
       proguardRules="proguard.txt"/>
   <library
       name="androidx.lifecycle:lifecycle-viewmodel-savedstate:2.7.0@aar"
-      jars="C:\Users\LENOVO\.gradle\caches\transforms-3\0ffbdfcadb71e0a9d41ca802b28f6974\transformed\jetified-lifecycle-viewmodel-savedstate-2.7.0\jars\classes.jar"
+      jars="C:\Users\LENOVO\.gradle\caches\transforms-3\eca8bf9fa5601d7d57b21d260a624f02\transformed\jetified-lifecycle-viewmodel-savedstate-2.7.0\jars\classes.jar"
       resolved="androidx.lifecycle:lifecycle-viewmodel-savedstate:2.7.0"
-      folder="C:\Users\LENOVO\.gradle\caches\transforms-3\0ffbdfcadb71e0a9d41ca802b28f6974\transformed\jetified-lifecycle-viewmodel-savedstate-2.7.0"
+      folder="C:\Users\LENOVO\.gradle\caches\transforms-3\eca8bf9fa5601d7d57b21d260a624f02\transformed\jetified-lifecycle-viewmodel-savedstate-2.7.0"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -113,9 +113,9 @@
       proguardRules="proguard.txt"/>
   <library
       name="androidx.core:core-ktx:1.13.1@aar"
-      jars="C:\Users\LENOVO\.gradle\caches\transforms-3\a374ebd3eb9aca2cfd2e4d2ed2f0ed1b\transformed\jetified-core-ktx-1.13.1\jars\classes.jar"
+      jars="C:\Users\LENOVO\.gradle\caches\transforms-3\95482c4feef629145aa3ceaa15b1b0c5\transformed\jetified-core-ktx-1.13.1\jars\classes.jar"
       resolved="androidx.core:core-ktx:1.13.1"
-      folder="C:\Users\LENOVO\.gradle\caches\transforms-3\a374ebd3eb9aca2cfd2e4d2ed2f0ed1b\transformed\jetified-core-ktx-1.13.1"
+      folder="C:\Users\LENOVO\.gradle\caches\transforms-3\95482c4feef629145aa3ceaa15b1b0c5\transformed\jetified-core-ktx-1.13.1"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -126,9 +126,9 @@
       proguardRules="proguard.txt"/>
   <library
       name="androidx.viewpager:viewpager:1.0.0@aar"
-      jars="C:\Users\LENOVO\.gradle\caches\transforms-3\df68f699e86fc62f441f38c2956744f2\transformed\viewpager-1.0.0\jars\classes.jar"
+      jars="C:\Users\LENOVO\.gradle\caches\transforms-3\3612a5a36963bae98de193e98a3e1f5b\transformed\viewpager-1.0.0\jars\classes.jar"
       resolved="androidx.viewpager:viewpager:1.0.0"
-      folder="C:\Users\LENOVO\.gradle\caches\transforms-3\df68f699e86fc62f441f38c2956744f2\transformed\viewpager-1.0.0"
+      folder="C:\Users\LENOVO\.gradle\caches\transforms-3\3612a5a36963bae98de193e98a3e1f5b\transformed\viewpager-1.0.0"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -139,9 +139,9 @@
       proguardRules="proguard.txt"/>
   <library
       name="androidx.customview:customview:1.0.0@aar"
-      jars="C:\Users\LENOVO\.gradle\caches\transforms-3\d3d604990b33abfe4e96d908d475ed42\transformed\customview-1.0.0\jars\classes.jar"
+      jars="C:\Users\LENOVO\.gradle\caches\transforms-3\8c028867d378b17d57200992fecabeff\transformed\customview-1.0.0\jars\classes.jar"
       resolved="androidx.customview:customview:1.0.0"
-      folder="C:\Users\LENOVO\.gradle\caches\transforms-3\d3d604990b33abfe4e96d908d475ed42\transformed\customview-1.0.0"
+      folder="C:\Users\LENOVO\.gradle\caches\transforms-3\8c028867d378b17d57200992fecabeff\transformed\customview-1.0.0"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -152,9 +152,9 @@
       proguardRules="proguard.txt"/>
   <library
       name="androidx.core:core:1.13.1@aar"
-      jars="C:\Users\LENOVO\.gradle\caches\transforms-3\54a4cfbaad86b9ab2273ca8263e4a153\transformed\core-1.13.1\jars\classes.jar"
+      jars="C:\Users\LENOVO\.gradle\caches\transforms-3\757b1161e28c95e61dd9537337d0defd\transformed\core-1.13.1\jars\classes.jar"
       resolved="androidx.core:core:1.13.1"
-      folder="C:\Users\LENOVO\.gradle\caches\transforms-3\54a4cfbaad86b9ab2273ca8263e4a153\transformed\core-1.13.1"
+      folder="C:\Users\LENOVO\.gradle\caches\transforms-3\757b1161e28c95e61dd9537337d0defd\transformed\core-1.13.1"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -165,9 +165,9 @@
       proguardRules="proguard.txt"/>
   <library
       name="androidx.lifecycle:lifecycle-runtime:2.7.0@aar"
-      jars="C:\Users\LENOVO\.gradle\caches\transforms-3\8968819bfcadfd25d9ed1488e55fb43d\transformed\lifecycle-runtime-2.7.0\jars\classes.jar"
+      jars="C:\Users\LENOVO\.gradle\caches\transforms-3\70fca1dfdcb3177b9afdd32ce54c5f4e\transformed\lifecycle-runtime-2.7.0\jars\classes.jar"
       resolved="androidx.lifecycle:lifecycle-runtime:2.7.0"
-      folder="C:\Users\LENOVO\.gradle\caches\transforms-3\8968819bfcadfd25d9ed1488e55fb43d\transformed\lifecycle-runtime-2.7.0"
+      folder="C:\Users\LENOVO\.gradle\caches\transforms-3\70fca1dfdcb3177b9afdd32ce54c5f4e\transformed\lifecycle-runtime-2.7.0"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -178,9 +178,9 @@
       proguardRules="proguard.txt"/>
   <library
       name="androidx.lifecycle:lifecycle-process:2.7.0@aar"
-      jars="C:\Users\LENOVO\.gradle\caches\transforms-3\f278e58515e8cfd3d9ddee03ef955ede\transformed\jetified-lifecycle-process-2.7.0\jars\classes.jar"
+      jars="C:\Users\LENOVO\.gradle\caches\transforms-3\8b3a34b23b60b3a98b8272ead9e1283d\transformed\jetified-lifecycle-process-2.7.0\jars\classes.jar"
       resolved="androidx.lifecycle:lifecycle-process:2.7.0"
-      folder="C:\Users\LENOVO\.gradle\caches\transforms-3\f278e58515e8cfd3d9ddee03ef955ede\transformed\jetified-lifecycle-process-2.7.0"
+      folder="C:\Users\LENOVO\.gradle\caches\transforms-3\8b3a34b23b60b3a98b8272ead9e1283d\transformed\jetified-lifecycle-process-2.7.0"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -199,9 +199,9 @@
       resolved="androidx.lifecycle:lifecycle-common:2.7.0"/>
   <library
       name="androidx.window:window-java:1.2.0@aar"
-      jars="C:\Users\LENOVO\.gradle\caches\transforms-3\3ef162224f371787e5c8dc68312129f9\transformed\jetified-window-java-1.2.0\jars\classes.jar"
+      jars="C:\Users\LENOVO\.gradle\caches\transforms-3\f995a7d3bd945f100ac249b401a4a48e\transformed\jetified-window-java-1.2.0\jars\classes.jar"
       resolved="androidx.window:window-java:1.2.0"
-      folder="C:\Users\LENOVO\.gradle\caches\transforms-3\3ef162224f371787e5c8dc68312129f9\transformed\jetified-window-java-1.2.0"
+      folder="C:\Users\LENOVO\.gradle\caches\transforms-3\f995a7d3bd945f100ac249b401a4a48e\transformed\jetified-window-java-1.2.0"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -212,9 +212,9 @@
       proguardRules="proguard.txt"/>
   <library
       name="androidx.window:window:1.2.0@aar"
-      jars="C:\Users\LENOVO\.gradle\caches\transforms-3\ac5ea9a8b6fd31385d98c2d53414b07d\transformed\jetified-window-1.2.0\jars\classes.jar"
+      jars="C:\Users\LENOVO\.gradle\caches\transforms-3\e805ea4f4f8e2a12f38f3617930670eb\transformed\jetified-window-1.2.0\jars\classes.jar"
       resolved="androidx.window:window:1.2.0"
-      folder="C:\Users\LENOVO\.gradle\caches\transforms-3\ac5ea9a8b6fd31385d98c2d53414b07d\transformed\jetified-window-1.2.0"
+      folder="C:\Users\LENOVO\.gradle\caches\transforms-3\e805ea4f4f8e2a12f38f3617930670eb\transformed\jetified-window-1.2.0"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -253,9 +253,9 @@
       resolved="org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.8.20"/>
   <library
       name="androidx.annotation:annotation-experimental:1.4.0@aar"
-      jars="C:\Users\LENOVO\.gradle\caches\transforms-3\bbfbfcd66d57b964cd3d944ae6910e1b\transformed\jetified-annotation-experimental-1.4.0\jars\classes.jar"
+      jars="C:\Users\LENOVO\.gradle\caches\transforms-3\aeec3969473c5f61021f14d882670dd4\transformed\jetified-annotation-experimental-1.4.0\jars\classes.jar"
       resolved="androidx.annotation:annotation-experimental:1.4.0"
-      folder="C:\Users\LENOVO\.gradle\caches\transforms-3\bbfbfcd66d57b964cd3d944ae6910e1b\transformed\jetified-annotation-experimental-1.4.0"
+      folder="C:\Users\LENOVO\.gradle\caches\transforms-3\aeec3969473c5f61021f14d882670dd4\transformed\jetified-annotation-experimental-1.4.0"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -266,9 +266,9 @@
       proguardRules="proguard.txt"/>
   <library
       name="androidx.savedstate:savedstate:1.2.1@aar"
-      jars="C:\Users\LENOVO\.gradle\caches\transforms-3\e31bf8eb61c587fe74f52284c4da4d09\transformed\jetified-savedstate-1.2.1\jars\classes.jar"
+      jars="C:\Users\LENOVO\.gradle\caches\transforms-3\6d8f36acaff2af9fdd67cb4c79b15eb6\transformed\jetified-savedstate-1.2.1\jars\classes.jar"
       resolved="androidx.savedstate:savedstate:1.2.1"
-      folder="C:\Users\LENOVO\.gradle\caches\transforms-3\e31bf8eb61c587fe74f52284c4da4d09\transformed\jetified-savedstate-1.2.1"
+      folder="C:\Users\LENOVO\.gradle\caches\transforms-3\6d8f36acaff2af9fdd67cb4c79b15eb6\transformed\jetified-savedstate-1.2.1"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -279,9 +279,9 @@
       proguardRules="proguard.txt"/>
   <library
       name="androidx.arch.core:core-runtime:2.2.0@aar"
-      jars="C:\Users\LENOVO\.gradle\caches\transforms-3\2874df0f81244a83e147dc16d9c51e26\transformed\core-runtime-2.2.0\jars\classes.jar"
+      jars="C:\Users\LENOVO\.gradle\caches\transforms-3\5a87e099d0e068abe3842e8bf4cc7932\transformed\core-runtime-2.2.0\jars\classes.jar"
       resolved="androidx.arch.core:core-runtime:2.2.0"
-      folder="C:\Users\LENOVO\.gradle\caches\transforms-3\2874df0f81244a83e147dc16d9c51e26\transformed\core-runtime-2.2.0"
+      folder="C:\Users\LENOVO\.gradle\caches\transforms-3\5a87e099d0e068abe3842e8bf4cc7932\transformed\core-runtime-2.2.0"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -296,9 +296,9 @@
       resolved="androidx.arch.core:core-common:2.2.0"/>
   <library
       name="androidx.versionedparcelable:versionedparcelable:1.1.1@aar"
-      jars="C:\Users\LENOVO\.gradle\caches\transforms-3\8709a11930c4a5c6fc6b75ede156eb83\transformed\versionedparcelable-1.1.1\jars\classes.jar"
+      jars="C:\Users\LENOVO\.gradle\caches\transforms-3\f47654ee439ba771552a01660a89fe95\transformed\versionedparcelable-1.1.1\jars\classes.jar"
       resolved="androidx.versionedparcelable:versionedparcelable:1.1.1"
-      folder="C:\Users\LENOVO\.gradle\caches\transforms-3\8709a11930c4a5c6fc6b75ede156eb83\transformed\versionedparcelable-1.1.1"
+      folder="C:\Users\LENOVO\.gradle\caches\transforms-3\f47654ee439ba771552a01660a89fe95\transformed\versionedparcelable-1.1.1"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -329,9 +329,9 @@
       resolved="org.jetbrains:annotations:23.0.0"/>
   <library
       name="androidx.startup:startup-runtime:1.1.1@aar"
-      jars="C:\Users\LENOVO\.gradle\caches\transforms-3\72d73aa9f2b0d4a60d769cc82fe58f41\transformed\jetified-startup-runtime-1.1.1\jars\classes.jar"
+      jars="C:\Users\LENOVO\.gradle\caches\transforms-3\1e6eb13d12e5cb802dd2da34b7d7e361\transformed\jetified-startup-runtime-1.1.1\jars\classes.jar"
       resolved="androidx.startup:startup-runtime:1.1.1"
-      folder="C:\Users\LENOVO\.gradle\caches\transforms-3\72d73aa9f2b0d4a60d769cc82fe58f41\transformed\jetified-startup-runtime-1.1.1"
+      folder="C:\Users\LENOVO\.gradle\caches\transforms-3\1e6eb13d12e5cb802dd2da34b7d7e361\transformed\jetified-startup-runtime-1.1.1"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -342,9 +342,9 @@
       proguardRules="proguard.txt"/>
   <library
       name="androidx.tracing:tracing:1.2.0@aar"
-      jars="C:\Users\LENOVO\.gradle\caches\transforms-3\b6393f1bc40143c1a43b027ef1bf8c49\transformed\jetified-tracing-1.2.0\jars\classes.jar"
+      jars="C:\Users\LENOVO\.gradle\caches\transforms-3\de1ab47a7127ab7144de176bbc561dc1\transformed\jetified-tracing-1.2.0\jars\classes.jar"
       resolved="androidx.tracing:tracing:1.2.0"
-      folder="C:\Users\LENOVO\.gradle\caches\transforms-3\b6393f1bc40143c1a43b027ef1bf8c49\transformed\jetified-tracing-1.2.0"
+      folder="C:\Users\LENOVO\.gradle\caches\transforms-3\de1ab47a7127ab7144de176bbc561dc1\transformed\jetified-tracing-1.2.0"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -355,9 +355,9 @@
       proguardRules="proguard.txt"/>
   <library
       name="androidx.profileinstaller:profileinstaller:1.3.1@aar"
-      jars="C:\Users\LENOVO\.gradle\caches\transforms-3\6ea3fe485a2777491d24973851e37227\transformed\jetified-profileinstaller-1.3.1\jars\classes.jar"
+      jars="C:\Users\LENOVO\.gradle\caches\transforms-3\60085485c1284f0f38b081fe362498b3\transformed\jetified-profileinstaller-1.3.1\jars\classes.jar"
       resolved="androidx.profileinstaller:profileinstaller:1.3.1"
-      folder="C:\Users\LENOVO\.gradle\caches\transforms-3\6ea3fe485a2777491d24973851e37227\transformed\jetified-profileinstaller-1.3.1"
+      folder="C:\Users\LENOVO\.gradle\caches\transforms-3\60085485c1284f0f38b081fe362498b3\transformed\jetified-profileinstaller-1.3.1"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -368,9 +368,9 @@
       proguardRules="proguard.txt"/>
   <library
       name="androidx.interpolator:interpolator:1.0.0@aar"
-      jars="C:\Users\LENOVO\.gradle\caches\transforms-3\8d22c1a156b420b2675d01b81726f3fe\transformed\interpolator-1.0.0\jars\classes.jar"
+      jars="C:\Users\LENOVO\.gradle\caches\transforms-3\0354728b10f29254f1d09507e2a3d8ea\transformed\interpolator-1.0.0\jars\classes.jar"
       resolved="androidx.interpolator:interpolator:1.0.0"
-      folder="C:\Users\LENOVO\.gradle\caches\transforms-3\8d22c1a156b420b2675d01b81726f3fe\transformed\interpolator-1.0.0"
+      folder="C:\Users\LENOVO\.gradle\caches\transforms-3\0354728b10f29254f1d09507e2a3d8ea\transformed\interpolator-1.0.0"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -385,9 +385,9 @@
       resolved="androidx.concurrent:concurrent-futures:1.1.0"/>
   <library
       name="androidx.window.extensions.core:core:1.0.0@aar"
-      jars="C:\Users\LENOVO\.gradle\caches\transforms-3\1c5f6db43d131463afca7e0462ec6152\transformed\jetified-core-1.0.0\jars\classes.jar"
+      jars="C:\Users\LENOVO\.gradle\caches\transforms-3\2f2e20d5d2e86057160865d9875d5765\transformed\jetified-core-1.0.0\jars\classes.jar"
       resolved="androidx.window.extensions.core:core:1.0.0"
-      folder="C:\Users\LENOVO\.gradle\caches\transforms-3\1c5f6db43d131463afca7e0462ec6152\transformed\jetified-core-1.0.0"
+      folder="C:\Users\LENOVO\.gradle\caches\transforms-3\2f2e20d5d2e86057160865d9875d5765\transformed\jetified-core-1.0.0"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
