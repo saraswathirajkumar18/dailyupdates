@@ -97,6 +97,18 @@ flutter:
     - assets/images/homepageimg/radiomenu3.png
     - assets/images/homepageimg/radiomenu4.png
     - assets/images/homepageimg/spotlightbanner.png
+    - assets/images/homepageimg/trynewmenu1.png 
+    - assets/images/homepageimg/trynewmenu2.png
+    - assets/images/homepageimg/trynewmenu3.png
+    - assets/images/homepageimg/avataricon1.png
+    - assets/images/homepageimg/avataricon2.png
+    - assets/images/homepageimg/avataricon3.png
+    - assets/images/homepageimg/avataricon4.png
+    - assets/images/homepageimg/avataricon5.png
+    - assets/images/homepageimg/avataricon6.png
+    - assets/images/homepageimg/avataricon7.png
+    - assets/images/homepageimg/avataricon8.png
+    
     
     
   #   - images/a_dot_ham.jpeg
@@ -125,6 +137,10 @@ flutter:
     - family: Roboto
       fonts:
         - asset: assets/fonts/Roboto/Roboto-Regular.ttf
+    - family: Montserrat
+      fonts:
+        - asset: assets/fonts/Montserrat/Montserrat-VariableFont_wght.ttf
+
 
   #      - asset: fonts/Schyler-Italic.ttf
   #         style: italic

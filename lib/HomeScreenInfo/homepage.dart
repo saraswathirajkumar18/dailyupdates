@@ -4,7 +4,9 @@ import 'package:flutter/material.dart';
 import 'package:food_app/HomeScreenInfo/category.dart';
 import 'package:food_app/HomeScreenInfo/cityspotlightpage.dart';
 import 'package:food_app/HomeScreenInfo/foodcard.dart';
+import 'package:food_app/HomeScreenInfo/hotelsnearyou.dart';
 import 'package:food_app/HomeScreenInfo/radionbuttonmenu.dart';
+import 'package:food_app/HomeScreenInfo/trynewmenu.dart';
 import 'package:food_app/addresspage.dart';
 
 
@@ -76,6 +78,8 @@ class _HomePageState extends State<HomePage> {
          Category(), 
          RadioButtonMenu() ,  
          CitySpotLightPage(),
+         TryNewMenu(),
+         HotelsNearYou(),
        // SizedBox(height:10),
              ],
           ), 

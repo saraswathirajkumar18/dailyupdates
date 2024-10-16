@@ -2,18 +2,18 @@ import 'package:flutter/material.dart';
 
 class RadiobtnMenuCard extends StatelessWidget {
   final String image;
-  final String headingText;
-  final String subText1;
-  final String subText2;
-  final String chipContent;
+  final String? headingText;
+  final String? subText1;
+  final String? subText2;
+  final String? chipContent;
   final VoidCallback onTap;
 
   RadiobtnMenuCard({
     required this.image,
-    required this.headingText,
-    required this.subText1,
-    required this.subText2,
-    required this.chipContent,
+    this.headingText,
+    this.subText1,
+    this.subText2,
+    this.chipContent,
     required this.onTap,
   });
 
@@ -32,69 +32,50 @@ class RadiobtnMenuCard extends StatelessWidget {
           children: [
             Stack(
               children: [
-                Image.asset(
+                ClipRRect(
+                borderRadius: BorderRadius.only(
+                  topLeft: Radius.circular(10),
+                  topRight: Radius.circular(10),
+                ), // Apply rounding only to the top corners
+                child:Image.asset(
                   image,
                   fit: BoxFit.cover,
                   width: double.infinity,
                  height: 90, // Set image height
                 ),
-                /*Positioned(
-                  top: 8, // Position the chip at the top
-                  right: 8, // Position the chip to the right
-                  child: Chip(
-                    label: Text(chipContent),
-                    backgroundColor: Colors.blue,
-                    labelStyle: TextStyle(color: Colors.white),
-                  ),
-                ),*/
+                ),
+              if (chipContent != null)
               Positioned(
-      top: 3,
+      top: 5,
       right: 4,
-      child: Padding(
-       padding: const EdgeInsets.symmetric(horizontal: 0.0, vertical: 0.0),
-        child: Container(
-          constraints: BoxConstraints(
-             // minWidth: 10, // Minimum width for the chip
-              //minHeight: 24, // Minimum height for the chip
-            ),
-          //width: 90, // Set a specific width
-  //height: 70,
-          child: Chip(
-            label: Row(
-                mainAxisSize: MainAxisSize.min, // Use only the required space
-                mainAxisAlignment: MainAxisAlignment.start,
-                children: [
-                  Icon(
+       child:Container(
+  padding: EdgeInsets.symmetric(horizontal: 4, vertical: 2),
+  decoration: BoxDecoration(
+    borderRadius: BorderRadius.circular(30),
+color: Color(0xFFFF6B00),
+  ),
+  child: Padding(
+    padding: const EdgeInsets.all(3.0),
+    child:Row(
+      //mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+      children: [
+        Icon(
                     Icons.star,
                     color: Colors.white,
-                    size: 11, // Icon size
+                    size: 12, // Icon size
                   ),
-                  SizedBox(width:2), // Space between icon and text
-                  Text(
-                    chipContent,
-                    style: TextStyle(
-                      color: Colors.white,
-                     fontSize:10,fontWeight: FontWeight.w700, // Smaller font size
-                    ),
-                  ),
-                ],
-              ),
-            /*avatar: Icon(
-              Icons.star, 
-              color: Colors.white, 
-              size: 10,
-            ), // Adds a star icon before the text
-            label: Text(
-              chipContent,
-              style: TextStyle(color: Colors.white,fontSize:10,fontWeight: FontWeight.w700),
-            ),*/
-            backgroundColor: Color(0xFFFF6B00),
-            shape: RoundedRectangleBorder(
-              borderRadius: BorderRadius.circular(8), // Rounded rectangle shape
-            ),
-          ),
+                  SizedBox(width:7),
+        Text(
+          chipContent!,
+          style: TextStyle(color: Colors.white,
+                     fontSize:10,fontWeight: FontWeight.w700, ),
         ),
-      ),
+        SizedBox(width:5),
+      ],
+    ),
+  ),
+)
+
     ),
               ],
             ),
@@ -103,21 +84,23 @@ class RadiobtnMenuCard extends StatelessWidget {
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
+                 // if (headingText != null)
                   Text(
-                    headingText,
+                    headingText!,
                     style: TextStyle(fontWeight: FontWeight.w500, fontSize: 16,color:Color(0xFF1E1E1E)),
                   ),
                   SizedBox(height: 4),
                   Row(
-                    mainAxisAlignment: MainAxisAlignment.spaceBetween, 
+                    //mainAxisAlignment: MainAxisAlignment.spaceEvenly, 
                     children: [
-                      Text(subText1, 
+                     //  if (subText1 != null)
+                      Text(subText1!, 
                       style: TextStyle(
                         color: Color(0xFF303030),fontSize: 11,
                         fontWeight: FontWeight.w500
                         )),
-                      SizedBox(width: 4),
-                  Text(subText2, style: TextStyle(color: Color(0xFF303030),fontSize: 11,fontWeight: FontWeight.w500)),
+                  //if (subText2 != null)    SizedBox(width:12),
+                  Text(subText2!, style: TextStyle(color: Color(0xFF303030),fontSize: 11,fontWeight: FontWeight.w500)),
                     ],
                   ),
                   
