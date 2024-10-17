@@ -30,6 +30,7 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  scroll_snap_list: ^0.9.1
   
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
@@ -108,7 +109,19 @@ flutter:
     - assets/images/homepageimg/avataricon6.png
     - assets/images/homepageimg/avataricon7.png
     - assets/images/homepageimg/avataricon8.png
-    
+    - assets/images/homepageimg/newhotelsmenu1.png
+    - assets/images/homepageimg/newhotelsmenu2.png
+    - assets/images/homepageimg/newhotelsmenu3.png
+    - assets/images/homepageimg/festival1.jpg
+    - assets/images/homepageimg/locationicon1.png    
+    - assets/images/homepageimg/explore.png
+    - assets/images/homepageimg/exploreFill.png
+    - assets/images/homepageimg/person.png
+    - assets/images/homepageimg/personFill.png
+    - assets/images/homepageimg/favorite.png
+    - assets/images/homepageimg/favoriteFill.png
+    - assets/images/homepageimg/home.png
+    - assets/images/homepageimg/homeFill.png
     
     
   #   - images/a_dot_ham.jpeg

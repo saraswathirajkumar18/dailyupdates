@@ -1,10 +1,13 @@
 import 'dart:async';
 
 import 'package:flutter/material.dart';
+import 'package:food_app/HomeScreenInfo/banquetsincity.dart';
 import 'package:food_app/HomeScreenInfo/category.dart';
 import 'package:food_app/HomeScreenInfo/cityspotlightpage.dart';
+import 'package:food_app/HomeScreenInfo/code1.dart';
 import 'package:food_app/HomeScreenInfo/foodcard.dart';
 import 'package:food_app/HomeScreenInfo/hotelsnearyou.dart';
+import 'package:food_app/HomeScreenInfo/newhotels.dart';
 import 'package:food_app/HomeScreenInfo/radionbuttonmenu.dart';
 import 'package:food_app/HomeScreenInfo/trynewmenu.dart';
 import 'package:food_app/addresspage.dart';
@@ -22,17 +25,19 @@ class _HomePageState extends State<HomePage> {
 //bool isFilled = false; 
  List<bool> isFilledList = [];
 
-  final List<IconData> icons = [
-    Icons.home_outlined,
-    Icons.explore_outlined,
-    Icons.favorite_border,
-    Icons.person_outline,
+  final List<dynamic> icons = [
+    /*Icons.home_outlined,Icons.explore_outlined,Icons.favorite_border,Icons.person_outline,*/
+    'assets/images/homepageimg/home.png',
+    'assets/images/homepageimg/explore.png',
+    'assets/images/homepageimg/favorite.png',
+    'assets/images/homepageimg/person.png',
   ];
-  final List<IconData> iconsFilled = [
-    Icons.home_filled,
-    Icons.explore,
-    Icons.favorite,
-    Icons.person,
+  final List<dynamic> iconsFilled = [
+    /*Icons.home_filled,Icons.explore,Icons.explore_outlined,Icons.person,*/ 
+    'assets/images/homepageimg/homeFill.png',
+    'assets/images/homepageimg/exploreFill.png',
+    'assets/images/homepageimg/favoriteFill.png',
+    'assets/images/homepageimg/personFill.png',
   ];
   
 
@@ -73,13 +78,17 @@ class _HomePageState extends State<HomePage> {
         child: Column(
           children: [
           //homepage banner Carousel
-        ImageCarousel (),
+       ImageCarousel (),
         FoodCard(), 
          Category(), 
          RadioButtonMenu() ,  
          CitySpotLightPage(),
          TryNewMenu(),
          HotelsNearYou(),
+         NewHotels(),
+         BanquetsinCity(),
+         
+        //Code1(),
        // SizedBox(height:10),
              ],
           ), 
@@ -122,8 +131,10 @@ class _HomePageState extends State<HomePage> {
                         ) */// Rounded corners
                       ),
                     ),
-                    Icon(
-                      size:25,
+                    Image.asset(
+                      //size:25,
+                      width:30,
+                   height:30,
                       isFilledList[index] ?iconsFilled[index]:icons[index],
                       //color:isFilled? Color(0xFF14278D): Color(0xFF3F3F3F),
                        //isFilled ? Icons.favorite : Icons.favorite_border, 
@@ -274,10 +285,10 @@ class _ImageCarouselState extends State<ImageCarousel> {
             right: 25,*/ 
            Positioned(
              top: 45,
-            left: 25,
-            right: 25,
+            left: 12,
+            right: 12,
               child: Container(
-                padding: EdgeInsets.symmetric(vertical: 10, horizontal: 25),
+                //padding: EdgeInsets.symmetric(vertical: 10, horizontal: 25),
                        // color: Colors.white.withOpacity(0.8), // Semi-transparent background for readability
                child: Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
@@ -289,7 +300,7 @@ class _ImageCarouselState extends State<ImageCarousel> {
                       //border: Border.all(color: Colors.blue, width: 2), // Circular border
                     ),
                     child: Padding(
-                      padding: const EdgeInsets.all(6.0),
+                      padding: const EdgeInsets.all(8.0),
                       child: Icon(
                         Icons.search, // Your icon
                         color:
@@ -360,7 +371,7 @@ class _ImageCarouselState extends State<ImageCarousel> {
                   //border: Border.all(color: Colors.blue, width: 2), // Circular border
                 ),
                 child: Padding(
-                  padding: const EdgeInsets.all(6.0),
+                  padding: const EdgeInsets.all(8.0),//change from 6 to 8
                   child: Icon(
                     Icons.notifications_none, // Your icon
                     color:
